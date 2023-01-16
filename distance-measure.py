@@ -8,7 +8,6 @@ out = cv2.VideoWriter('output/distance_measure.avi', cv2.VideoWriter_fourcc(*'MP
 while True:
     ret, frame = cap.read()
     flip_img = cv2.flip(frame, 1)
-
     image = detector.detector(flip_img, draw=False)
 
     if not ret:
