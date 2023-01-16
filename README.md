@@ -19,7 +19,7 @@ we have a formula to calulate focal length:
 
     focal_length = (size_object_pixel * distance)/size_object
 
-In this formula we don't know the object size and distance, but we need the real size of an object. Here, I have took the distance between two eyes i.e apporximately 6.3 and assume initial distance from camera is 50. The size of object pixel can be obtained by cvzone library.
+In this formula we don't know the object size and distance, but we need the real size of an object. Here, I have took the distance between two eyes i.e apporximately 6.3 as real size of an object and assume initial distance from a camera is 50. The size of an object pixel can be obtained by cvzone library.
 
 #### Calculating the depth from camera
 Now, we can easily calculate focal length. Then, after we can calculate distance from camera:
