@@ -4,6 +4,14 @@ Real -Time face distance measure from camera using OpenCV and cvzone-FaceMeshMod
 # Introduction
 Distance Measurement is the process of measuring how far an object is from another. There are many methods to calculate the distance but here, I just measure the distance from camera to object having real size of an object using cvzone and OpenCV.
 
+# Dependencies
+### Install Mediapipe
+    $ pip3 install cvzone
+
+### Libraries Used
+    import cv2
+    from cvzone.FaceMeshModule import FaceMeshDetector
+
 # Methods to calculate the distance from camera
 
 #### Calculating the focal length
